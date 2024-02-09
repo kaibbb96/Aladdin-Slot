@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:importantForAccessibility="no"
+        android:contentDescription="@string/settings_background"
+        android:background="@drawable/setting_menu">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="25dp"
+            android:importantForAccessibility="no"
+            android:contentDescription="@string/close_image_button"
+            android:background="@drawable/close"
+            android:layout_marginEnd="30dp"/>
+
+        <ImageView
+            android:id="@+id/music_on"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:contentDescription="@string/music_on_button"
+            android:importantForAccessibility="no"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginTop="146dp"
+            android:background="@drawable/on_1"
+            android:padding="2dp" />
+
+
+        <ImageView
+            android:id="@+id/music_off"
+            android:layout_width="83dp"
+            android:layout_height="33dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="78dp"
+            android:background="@drawable/off_1"
+            android:contentDescription="@string/music_off_button"
+            android:importantForAccessibility="no"
+            android:visibility="invisible" />
+        <ImageView
+            android:id="@+id/sounds_on"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:importantForAccessibility="no"
+            android:contentDescription="@string/sounds_on_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/on_1"/>
+
+        <ImageView
+            android:id="@+id/sounds_off"
+            android:layout_width="85dp"
+            android:layout_height="35dp"
+            android:importantForAccessibility="no"
+            android:contentDescription="@string/sounds_off_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="78dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/off_1"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="350dp"
+            android:importantForAccessibility="no"
+            android:contentDescription="@string/exit_image_button"
+            android:background="@drawable/exit"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,3 +1,39 @@
 <resources>
-    <string name="app_name">TCPlatform</string>
+    <string name="app_name">Aladdin\'s Fortune</string>
+    <string name="win_message">YOU WON!</string>
+
+    <string name="coins">coins</string>
+    <string name="play">play</string>
+    <string name="btnexit">Exit Button</string>
+    <string name="btnplay">Button Play</string>
+    <string name="btnclose">Button Close</string>
+    <string name="text_amount">500,000</string>
+    <string name="play_amount_image_button">play amount</string>
+    <string name="spin_button">Spin</string>
+    <string name="minus_image_button">minus</string>
+    <string name="energy_text">5</string>
+    <string name="plus_image_button">plus</string>
+    <string name="settings_image_button">settings</string>
+    <string name="energy_background">background\n</string>
+    <string name="energy_amount" />
+    <string name="read_radio_button">read</string>
+    <string name="agree_radio_button">agree</string>
+    <string name="webview">webview</string>
+    <string name="accept_button">accept</string>
+    <string name="deny_button">deny</string>
+    <string name="fortunes_image">info</string>
+    <string name="play_image_button">play</string>
+    <string name="policy_image_button">policy</string>
+    <string name="settings_background">settings</string>
+    <string name="close_image_button">close</string>
+    <string name="music_on_button">music on</string>
+    <string name="music_off_button">music_off</string>
+    <string name="sounds_on_button">sounds on</string>
+    <string name="sounds_off_button">sounds_off</string>
+    <string name="exit_image_button">exit</string>
+    <string name="spinner_background">spinner</string>
+    <string name="web_access">html webview\n</string>
+    <string name="link">link</string>
+    <string name="notif">notification</string>
+    <string name="message">message</string>
 </resources>
